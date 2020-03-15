@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mt-16 {
+    margin-top: 8px;
+}
+
+.mr-16 {
+    margin-right: 16px;
+}
+
+.container {
+    margin-top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.container-child {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: auto;
+    background: #2B3566;
+    border-radius: 20px;
+    font-family: Roboto;
+    padding: 34px 46px;
+}
+
+.card-2 {
+    background-color: #242424;
+}
+
+.card-3 {
+    background-color: #DD1F32;
+}
+
+.card-title {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35px;
+    color: #ffffff;
+}
+
+.card-description {
+    width: 218px;
+    height: 87px;
+    left: 222px;
+    top: 988px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.car-description-container {
+    padding-top: 16px;
+}
+
+
+
+.group-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    color: #45D3C2;
+    font-size: 24px !important;
+}
+
+.icon-2 {
+    color: #002BFF;
+    font-size: 24px !important;
+}
+
+.icon-3 {
+    color: #FDD91A;
+    font-size: 24px !important;
+}
+
+.group-description-container {
+    margin-left: 12px;
+}
+
+.group-description {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.btn {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #45D3C2;
+    padding: 15px;
+    border-radius: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.btn-secondary {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #002BFF;
+    padding: 15px;
+    border-radius: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.btn-warn {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #FDD91A;
+    padding: 15px;
+    border-radius: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.btn-primary:hover {
+    background-color: #45D3C2;
+}
+
+.btn-secondary:hover {
+    background-color: #002BFF;
+}
+
+.btn-warn:hover {
+    background-color: #FDD91A;
+}
